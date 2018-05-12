@@ -1,0 +1,38 @@
+  /* relevant for the tutorial - start */
+  #gallery { position: relative; }
+    #pictures { position: relative; height: 408px; }
+    #pictures img { position: absolute; top: 0; left: 0; }
+    
+   #prev, #next
+{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 120px;
+    
+}
+
+#prev a, #next a {color: #009bff;}
+
+#prev a:hover, #next a:hover
+{
+    color: #FF3300;
+}
+  /* relev
+  /* relevant for the tutorial - end */
+  
+  /* enhanced - start */
+  #loader
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 458px;
+    width: 100%;
+    background: white url('images/loading.gif') no-repeat center center;
+    z-index: 9999;
+}
+  /* enhanced - end */
+  
+
+

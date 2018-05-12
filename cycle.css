@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+.pics { height: 332px; width: 332px; padding:0; margin:0; overflow: hidden }
+.pics img
+{
+	height: 300px;
+	width: 300px;
+	padding: 15px;
+	border: 1px solid #009bff;
+	background-color: #afdcfa;
+	top: 0;
+	left: 0;
+}
+.pics img {
+	-moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
